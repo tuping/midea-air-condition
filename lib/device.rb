@@ -38,11 +38,11 @@ module MideaAirCondition
     end
 
     def indoor_temperature
-      (@data[@pointer + 10] - 50) / 2
+      (@data[@pointer + 10] - 50) / 2.0
     end
 
     def outdoor_temperature
-      (@data[@pointer + 11] - 50) / 2
+      (@data[@pointer + 11] - 50) / 2.0
     end
 
     def eco
