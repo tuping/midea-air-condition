@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   s.add_dependency 'json', '~> 2.1.0'
-  s.add_dependency 'openssl', '~> 2.0.3'
+  s.add_dependency 'openssl'
   s.add_dependency 'thor', '~> 0.20.0'
 
   s.add_development_dependency 'rake', '>= 12.0'
